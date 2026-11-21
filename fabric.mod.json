@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor_visuals",
+  "version": "${version}",
+  "name": "Meteor Visuals",
+  "description": "A standalone, Meteor-inspired visual utility mod for Fabric 1.21.5. No Meteor Client code is bundled.",
+  "authors": ["Meteor Visuals contributors"],
+  "contact": {
+    "sources": "https://example.invalid/meteor-visuals"
+  },
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.meteorvisuals.MeteorVisualsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
